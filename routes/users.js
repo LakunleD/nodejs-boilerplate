@@ -8,7 +8,7 @@ const User = require('../models/user');
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
+router.get('/', tokenManagement.verifyToken, (req, res) => {
     User.find()
         .select("-password, -__v") //excludes password and __v fields
         .then(users => res.status(200).send(users))
