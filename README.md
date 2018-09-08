@@ -35,7 +35,7 @@
 
 3. Set your environment variables in your `.bashrc` file. The three environment variables are `MONGO_URL`, `PORT` and `JWT_SECRET`.
 
-    Please note that `MONGO_URL` is the connection url for MongoDB, `PORT` is the port the aoi would be running on while `JWT_SECRET` is the secret key for jsonwebtoken.
+    Please note that `MONGO_URL` is the connection url for MongoDB, `PORT` is the port the api would be running on while `JWT_SECRET` is the secret key for jsonwebtoken.
     
 
 4. Start your MongoDB server
