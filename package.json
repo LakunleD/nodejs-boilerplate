@@ -1,5 +1,5 @@
 {
-  "name": "nodetestbook",
+  "name": "nodejs-boilerplate",
   "version": "1.0.0",
   "description": "A boilerplate for API creation with Node.js",
   "main": "app.js",
